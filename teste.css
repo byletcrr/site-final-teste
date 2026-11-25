@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+    }
+
+.topo-imagem {
+  min-height: 320px;
+  background-color: #1f2933;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/12/simbolo-justica.jpg);
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=cormorant+Garamond:wgt@400;500;600$&dislay=swap');
+.texto-topo h1 {
+  color: #ffffff;
+  font-size: 2.3rem;
+  margin: 0 0 10px 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.texto-topo p {
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  margin: 0;
+}.menu {
+
+
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+}nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+.botoes {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.botao {
+  padding: 8px 25px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  margin: 0;
+}
+
+.join {
+  background: #ffffff;
+  color: #333333;
+  border: 2px solid #ffffff;
+  margin-right: 40px; /* ← ESSE É O SEGREDO! Aumenta aqui! */
+}
+
+.join:hover {
+  background: #eeeeee;
+  border-color: #eeeeee;
+}
+
+.donate {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.donate:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.marlon{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:x-large
+
+
+
+
+}
